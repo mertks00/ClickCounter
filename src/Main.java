@@ -17,11 +17,7 @@ public class Main {
         JButton btn = new JButton();
         btn.setBounds(190,200,200,60);
         btn.setText("TIKLA");
-
-        JButton rbtn = new JButton();
-        rbtn.setBounds(235,270,100,30);
-        rbtn.setText("Reset");
-
+        
         btn.addActionListener(new ActionListener() {
             int c = 0;
 
